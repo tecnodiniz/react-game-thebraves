@@ -1,0 +1,6 @@
+.battle_content > .title {
+    margin-bottom: 1rem;
+}
+.enemy-side{
+    text-align: -webkit-right;
+}

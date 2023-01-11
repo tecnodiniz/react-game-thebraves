@@ -1,0 +1,14 @@
+.action_box{
+    height: 100px;
+    border: solid;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.btn-action{
+    min-width: 120px!important;
+    padding: 10px 20px!important;
+    margin: 5px!important;
+}

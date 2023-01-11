@@ -1,0 +1,64 @@
+.content{
+    color: #FFF;
+    padding-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.selected{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    
+}
+.content_char{
+    text-align: center;
+}
+.char_select{
+    margin-bottom: 2rem;
+}
+.btn-8-bit{
+    background-color: #92CD41;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: inset -4px -4px 0px 0px #4AA52E;
+    cursor: pointer;
+    border: none;
+  
+  }
+  .btn-8-bit::before,
+  .btn-8-bit::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+  }
+  .btn-8-bit::before{
+    left: 0;
+    top: -4px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+  
+  }
+  .btn-8-bit::after{
+    top: 0;
+    left: -4px;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+  }
+  .btn-8-bit:focus,.btn-8-bit:hover{
+    background-color:#76c442;
+    box-shadow: inset -5px -5px 0px 0px #4AA52E;
+  }
+  .btn-8-bit:active{
+    box-shadow: inset 4px 4px 0px 0px #4AA52E;
+  }

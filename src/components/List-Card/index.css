@@ -1,0 +1,18 @@
+.charCard_container{
+    color: #FFF;
+    text-align: center;
+}
+.box{
+    overflow-x: auto;
+    color: #FFF;
+}
+.card_select{
+    display: inline-flex
+   
+}
+.card{
+    width: 180px;
+    height: 180px;
+    margin-right: 5px;
+   
+}
